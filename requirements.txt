@@ -1,0 +1,11 @@
+# discord.py 2.5+ is required: Discord's voice gateway now mandates the DAVE
+# protocol handshake. Older discord.py (2.4.x) connects but gets immediately
+# closed by Discord with WebSocket code 4006. davey is the companion library
+# that implements DAVE — install with `pip install davey`.
+discord.py>=2.5.0
+davey
+yt-dlp>=2024.3.10
+PyNaCl>=1.5.0
+python-dotenv>=1.0.0
+spotipy>=2.23.0
+aiosqlite>=0.19.0
